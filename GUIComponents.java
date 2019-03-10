@@ -203,7 +203,6 @@ public class GUIComponents {
 
             }
         });
-
     }
 
     public static String getPath() {

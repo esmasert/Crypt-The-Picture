@@ -62,14 +62,14 @@ public class testAES {
         for(int i=0; i<(pixBlueArray.size()/16); i++) {
 
 
-            System.out.println("\n Encyrpted Arrays between: " + i*16+ " And " + (i+1)*16 + ": ");
+            //System.out.println("\n Encyrpted Arrays between: " + i*16+ " And " + (i+1)*16 + ": ");
 
 
             objRed = new AESObj(pixRedArray.subList(i*16,(i+1)*16));
 
             CryptRedArray = objRed.getLastList();
 
-            System.out.println(" Encyrpted RedArray: " + CryptRedArray);
+            //System.out.println(" Encyrpted RedArray: " + CryptRedArray);
 
 
             for (String k : CryptRedArray){
@@ -82,7 +82,7 @@ public class testAES {
 
             CryptGreenArray = objGreen.getLastList();
 
-            System.out.println(" Encyrpted GreenArray: " + CryptGreenArray);
+            //System.out.println(" Encyrpted GreenArray: " + CryptGreenArray);
 
 
             for (String k : CryptGreenArray){
@@ -95,7 +95,7 @@ public class testAES {
 
             CryptBlueArray = objBlue.getLastList();
 
-            System.out.println(" Encyrpted BlueArray: " + CryptBlueArray);
+            //System.out.println(" Encyrpted BlueArray: " + CryptBlueArray);
 
             for (String k : CryptBlueArray){
 

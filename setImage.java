@@ -48,8 +48,8 @@ public class setImage {
 
 
         //image dimension
-        int width = 42;
-        int height = 32;
+        int width = 245;
+        int height = 186;
 
         //create buffered image object img
         BufferedImage img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
@@ -89,9 +89,6 @@ public class setImage {
     }
 
     public File getEncyptedPicture() {
-
-
-        System.out.println("BUU: " + a);
 
         return a;
     }
